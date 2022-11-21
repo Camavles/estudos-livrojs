@@ -3,7 +3,7 @@
 
       OBJETIVOS:
 
-O objetivo desse repositório é ter de forma resumida os meus estudos sobre JavaScript e HTML e a integração entre ambos.
+O objetivo desse repositório é ter, de forma resumida, os meus estudos sobre JavaScript e HTML e a integração entre ambos.
 
       PASTAS E ARQUIVOS:
 
