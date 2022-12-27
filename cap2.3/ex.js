@@ -1,8 +1,8 @@
-var a = 5 % 2 // traz o resto dessa divisão; o nome desse operador é módulo ou rwsto
+var a = 5 % 2 // traz o resto dessa divisão; o nome desse operador é módulo ou resto
 var b = 7 % 4
 var c = 2 ** 10 // exponencial
 
-// o Math.abs(num) --> essa função retorna o valor absoluto de um número, ou seja, se for negativo, vira positivo e se for positivo ele constinua posirivo. 
+// o Math.abs(num) --> essa função retorna o valor absoluto de um número, ou seja, se for negativo, vira positivo e se for positivo ele constinua positivo. 
 var d = -5
 var demonstrar1 = Math.abs(d)
 // console.log(demonstrar1)
@@ -29,7 +29,7 @@ var demonstrar4 = Math.pow(g, 2)
 // console.log(demonstrar4)
 
 // ----------------------------------
-// Math.random() --> essa função retorna um número aleatório entre 0 e 1, com várias casas decimais. Onúmeor aleatório inicia em 0 e vai até um valor inferior a 1.
+// Math.random() --> essa função retorna um número aleatório entre 0 e 1, com várias casas decimais. O número aleatório inicia em 0 e vai até um valor inferior a 1.
 var h = Math.random()
 // console.log(h)
 
@@ -47,7 +47,7 @@ var l = Math.sqrt(16)
 // console.log(l)
 
 // ---------------------------------------
-//Observação sobre operadores. As dunções matemática têm prioridade sobre os demais operadores aritméticos.
+//Observação sobre operadores. As funções matemáticas têm prioridade sobre os demais operadores aritméticos.
 var m = Math.sqrt(9) * 8/2
 // neste caso fica assim:
 // raiz quadrada de 9 = 3 
