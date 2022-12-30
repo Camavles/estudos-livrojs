@@ -10,10 +10,10 @@ function calcularPromocao() {
     var resultado = (arredonda * 2)
 
     outValor.textContent = "Promoção de " + medicamento + " Leve 2 por apenas R$ " + resultado.toFixed(2)
-
-
-
+    
 }
+
+
 
 var btCalcular = document.getElementById("btMostrarPromocao")
 btCalcular.addEventListener("click", calcularPromocao)
