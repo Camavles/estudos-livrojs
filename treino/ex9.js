@@ -16,19 +16,23 @@ Crie um programa que verifique se um número é primo
 
 // verificar()
 
-function verificarPrimo(numero) {
+function verificarPrimo() {
 
-    if (numero <= 1) {
-      return false;
+  let numero = 0;
+  if (numero <= 1) {
+    console.log("Não é número primo")
+  }
+
+  for (let i = 2; i < numero; i++) {
+    if (numero % i === 0) {
+      console.log("Não é número primo")
+    } else {
+      console.log("É número primo")
     }
-    
-    for (let i = 2; i < numero; i++) {
-      if (numero % i === 0) {
-        return false;
-      }
-    }
-    
-    return true;
+  }
+
+  
+
 }
 
-verificarPrimo(17)
+verificarPrimo(49)
