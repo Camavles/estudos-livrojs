@@ -137,5 +137,5 @@ let separa = frase.match(/[a-zA-Z]+/gi)
 let separaEMostraAcentos = frase.match(/[a-zA-Z\u00C0-\u017F]+/gi)
 
 console.log(separa) // return [ 'Ol', 'meu', 'nome', 'Anjo' ]
-console.log(separaEMostraAcentos) return [ 'Olá', 'meu', 'nome', 'é', 'Anjo' ]
+console.log(separaEMostraAcentos) // return [ 'Olá', 'meu', 'nome', 'é', 'Anjo' ]
 ```
