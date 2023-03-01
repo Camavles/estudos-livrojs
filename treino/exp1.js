@@ -16,6 +16,7 @@ let encontre = /^hello/.test(frase)
 // return true
 
 let ache = frase.match(buscar)
+//console.log(ache)
 // return [ 'hello', index: 0, input: 'hello world', groups: undefined ]
 
 
@@ -30,6 +31,8 @@ let ache = frase.match(buscar)
 */
 let tel = "Meu número é 123-456-7899";
 let verifica = /(\d{3})-(\d{3})-(\d{4})/
+let mostrar = tel.match(verifica)
+console.log(mostrar)
 /* 
 [
   '123-456-7899', // elemento 0

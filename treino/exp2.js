@@ -12,3 +12,7 @@ console.log(separa)
 console.log(separaEMostraAcentos)
 
 
+const nome = "Camila";
+let idade = "16";
+var sobrenome = "Silva"
+//console.log(nome[0])
