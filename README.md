@@ -130,7 +130,9 @@ Obs: como o retorno é uma array, eu consigo acessar o número, como string, no 
 - `Usando o .match() para separar cada palavra dentro de uma string` 
 ```js
 /*
-Explicação: pegue tudo que está nos colchetes, palavras com letras minúsculas a-z; palavras com letras maiúsculas A-Z; ignore todas os acentos do alfabeto latino \u00C0-\u017F; de forma global e insensitive. 
+Explicação: pegue tudo que está nos colchetes, palavras com letras minúsculas a-z;
+palavras com letras maiúsculas A-Z; ignore todas os acentos do alfabeto latino \u00C0-\u017F; 
+de forma global e insensitive. 
 */
 let frase = "Olá meu nome é Anjo"
 let separa = frase.match(/[a-zA-Z]+/gi)
